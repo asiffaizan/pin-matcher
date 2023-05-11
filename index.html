@@ -4,24 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
     <title>pin-matching</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section>
         <div class="container">
-            <div id="display"></div>
-            <button class="button"></button>
-            <button class="button"></button>
-            <button class="button"></button>
-            <button class="button"></button>
-            <button class="button"></button>
-            <button class="button"></button>
-            <button class="button"></button>
-            <button class="button"></button>
-            <button class="button"></button>
-            <button class="button"></button>
-            <button class="button"></button>
-            <button class="button"></button>
+           <div class="row">
+            <div class="col-md-6">
+                <div class="holder">
+                    <div id="pin-display" style="border-bottom: 2px solid gray;">12345</div>
+                    <button type="button" class="btn btn-primary generate">Generate Pin</button>
+                </div>
+            </div>
+                <div class="col-md-6" >
+                    <div class="holder">
+                        <div id="display">1234</div>
+                        <div class="buttons">
+                            <button type="button" class="btn btn-danger button">C</button>
+                            <!-- <button type="button" class="btn btn-light button">/</button>
+                            <button type="button" class="btn btn-light button">*</button> -->
+                            <button type="button" class="btn btn-light button">&larr;</button>
+                            <button type="button" class="btn btn-light button">7</button>
+                            <button type="button" class="btn btn-light button">8</button>
+                            <button type="button" class="btn btn-light button">9</button>
+                            <!-- <button type="button" class="btn btn-light button">-</button> -->
+                            <button type="button" class="btn btn-light button">4</button>
+                            <button type="button" class="btn btn-light button">5</button>
+                            <button type="button" class="btn btn-light button">6</button>
+                            <!-- <button type="button" class="btn btn-light button">+</button> -->
+                            <button type="button" class="btn btn-light button">1</button>
+                            <button type="button" class="btn btn-light button">2</button>
+                            <button type="button" class="btn btn-light button">3</button>
+                            <!-- <button type="button" class="btn btn-light button">.</button> -->
+                            <!-- <button type="button" class="btn btn-light button">(</button> -->
+                            <button type="button" class="btn btn-light button">0</button>
+                            <!-- <button type="button" class="btn btn-light button">)</button> -->
+                            <button type="button" id="equal" class="btn btn-success button">Enter ↵</button>
+                        </div>
+                    </div>
+                </div>
+           </div>
+            
         </div>
     </section>
 </body>
