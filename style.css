@@ -14,7 +14,7 @@ section {
     padding: 0;
     height: 100%;
 }
-#display,#pin-display {
+#display,#pinDisplay {
     text-align: right;
     height: 90px;
     line-height: 70px;
@@ -47,7 +47,7 @@ section {
 
 /* Generator */
 
-.generate {
+#generate {
     border-radius: 50%;
     position: absolute;
     top: 37%;
@@ -57,11 +57,11 @@ section {
     transition: 0.3s ease-in-out;
     padding: 13vh 5vh;
 }
-.generate:before {
+#generate:before {
     content: '';
     position: relative;
 }
-.generate:hover {
+#generate:hover {
     background-color: hsl(231 51% 50% / 1);
     border-color: hsl(147, 51%, 50%);
 }
