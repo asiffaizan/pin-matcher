@@ -66,3 +66,10 @@ section {
     border-color: hsl(147, 51%, 50%);
 }
 
+.try{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 10px;
+}
