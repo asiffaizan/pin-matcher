@@ -5,6 +5,7 @@ body {
 /* Input field */
 section {
     padding-top: 50px;
+    height: 100vh;
 }
 .holder {
     width: 90%;
